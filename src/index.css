@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #00D1FF;
+  --color-brand-hover: #00A3CC;
+  --color-bg-deep: #050505;
+  --color-bg-surface: #0A0A0A;
+  --color-rating: #00D1FF;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-deep text-[#F5F5F5] font-sans antialiased selection:bg-brand selection:text-black;
+    background-image: 
+      radial-gradient(circle at 70% 20%, #1a2a44 0%, #050505 70%);
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+  
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-2xl border border-white/5;
+  }
+
+  .editorial-heading {
+    @apply font-bold leading-[0.85] tracking-tighter;
+  }
+
+  .cinematic-glow {
+    box-shadow: 0 0 50px -10px rgba(0, 209, 255, 0.2);
+  }
+
+  .label-uppercase {
+    @apply text-[10px] font-bold tracking-[0.3em] uppercase opacity-40;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+/* Hide scrollbar but allow scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

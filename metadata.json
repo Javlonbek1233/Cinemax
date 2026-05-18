@@ -1,0 +1,6 @@
+{
+  "name": "Cinemax",
+  "description": "A premium cinematic movie streaming platform with immersive animations and high-end UI/UX.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

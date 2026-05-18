@@ -1,0 +1,83 @@
+import { Movie } from '../types';
+
+export const movies: Movie[] = [
+  {
+    id: '1',
+    title: 'The Stellar Odyssey',
+    description: 'A team of explorers travel across a newly discovered wormhole to ensure humanity\'s survival as Earth faces a terminal ecological collapse.',
+    year: 2024,
+    rating: 8.9,
+    duration: '2h 45m',
+    genre: ['Sci-Fi', 'Adventure', 'Drama'],
+    bannerUrl: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=2000',
+    posterUrl: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=600',
+    trailerUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder
+    cast: ['Matthew McConaughey', 'Anne Hathaway', 'Jessica Chastain'],
+    isTrending: true,
+    isOriginal: true,
+  },
+  {
+    id: '2',
+    title: 'Crimson Night',
+    description: 'In a dystopian future, a specialized hunter must track down a rogue artificial intelligence that has integrated itself into the city\'s core.',
+    year: 2023,
+    rating: 8.5,
+    duration: '2h 12m',
+    genre: ['Action', 'Thriller', 'Sci-Fi'],
+    bannerUrl: 'https://images.unsplash.com/photo-1514539079130-25950c84af65?auto=format&fit=crop&q=80&w=2000',
+    posterUrl: 'https://images.unsplash.com/photo-1614850523296-d8c1af93d400?auto=format&fit=crop&q=80&w=600',
+    trailerUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    cast: ['Ryan Gosling', 'Ana de Armas'],
+    isPopular: true,
+    isContinueWatching: true,
+    progress: 45,
+  },
+  {
+    id: '3',
+    title: 'Echoes of the Past',
+    description: 'A historian discovers a series of lost journals that reveal a hidden truth about his family\'s involvement in a secret society.',
+    year: 2024,
+    rating: 7.8,
+    duration: '1h 55m',
+    genre: ['Mystery', 'Drama'],
+    bannerUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=2000',
+    posterUrl: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&q=80&w=600',
+    trailerUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    cast: ['Florence Pugh', 'Cillian Murphy'],
+    isTrending: true,
+  },
+  {
+    id: '4',
+    title: 'Neon Safari',
+    description: 'When a wild animal from a research lab escapes into a high-tech metropolis, a naturalist and a tech mogul must team up to save it.',
+    year: 2023,
+    rating: 7.2,
+    duration: '1h 38m',
+    genre: ['Adventure', 'Comedy'],
+    bannerUrl: 'https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?auto=format&fit=crop&q=80&w=2000',
+    posterUrl: 'https://images.unsplash.com/photo-1542204113-e935417936c9?auto=format&fit=crop&q=80&w=600',
+    trailerUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    cast: ['Chris Pratt', 'Zoe Saldana'],
+    isPopular: true,
+  },
+  {
+    id: '5',
+    title: 'The Silent Forest',
+    description: 'A young girl who can communicate with birds must save her forest home from an encroaching industrial developer.',
+    year: 2024,
+    rating: 8.2,
+    duration: '1h 48m',
+    genre: ['Fantasy', 'Animation'],
+    bannerUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=2000',
+    posterUrl: 'https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&q=80&w=600',
+    trailerUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    cast: ['Anya Taylor-Joy'],
+    isOriginal: true,
+    isContinueWatching: true,
+    progress: 80,
+  }
+];
+
+export const categories = [
+  'All', 'Action', 'Adventure', 'Drama', 'Sci-Fi', 'Thriller', 'Animation', 'Comedy', 'Mystery', 'Crime', 'Horror'
+];
